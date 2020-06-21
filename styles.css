@@ -1,0 +1,58 @@
+.name {
+  text-align: center;
+  border:2px;
+  background-color: #d8d8d8;
+  font-size: 25px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-block-end: 20px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 2px;
+}
+
+img {
+    width: 300px;
+    border: 2px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.card {
+      width: 330px;
+      border:2px solid #808080;
+      border-style: groove;
+      background-color: #f7f7f7; 
+      padding: 5px;
+      box-shadow: 8px 8px 2px #ddd;
+}
+
+.insidecard {
+  width: 300px;
+  margin: 8px;
+  border: 2px solid #808080;
+  background-color: #d8d8d8;
+  text-align: center;
+  padding: 5px;
+}
+
+.insidecard > p:first-child {
+  font-style: italic;
+  font-size: 17px;
+}
+
+.description {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ span {
+  float: left;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 2em;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
